@@ -17,7 +17,7 @@ services:
       - ./public:/app/public
       - ./routes:/app/routes
       - ./database:/app/database
-      - ./composer_lite.json:/app/composer.json
+      - ./composer_hq.json:/app/composer.json
       - wellmed_hq_storage:/app/storage
     extra_hosts:
       - "host.docker.internal:host-gateway"
