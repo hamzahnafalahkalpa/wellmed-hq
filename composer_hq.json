@@ -39,6 +39,7 @@
         ],
         "psr-4": {
             "App\\": "app/",
+            "Hanafalah\\MicroTenant\\": "repositories/MicroTenant/",
             "Projects\\Hq\\": "projects/hq/src/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"

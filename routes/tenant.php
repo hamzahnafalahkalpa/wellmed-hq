@@ -1,9 +1,9 @@
 <?php
 
-declare(strict_types=1);
+// declare(strict_types=1);
 
-use Illuminate\Support\Facades\Route;
+// use Illuminate\Support\Facades\Route;
 
-Route::get('/{tenant}/assets/{path?}', 'App\Http\Controllers\TenantAssetsController@asset')
-    ->where('path', '(.*)')
-    ->name('stancl.tenancy.asset');
+// Route::get('/{tenant}/assets/{path?}', 'App\Http\Controllers\TenantAssetsController@asset')
+//     ->where('path', '(.*)')
+//     ->name('stancl.tenancy.asset');
