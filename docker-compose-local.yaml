@@ -1,0 +1,42 @@
+services:
+  wellmed_hq:
+    container_name: wellmed_hq
+    image: wellmed-hq
+    build:
+      context: .
+      dockerfile: ./docker/common/Dockerfile-hq-dev
+      target: development
+    ports:
+      - "${WELLMED_HQ_PORT:-9001}:${WELLMED_HQ_PORT:-9001}"
+    volumes:
+      - ./repositories:/app/repositories
+      - ./app:/app/app
+      - ./projects/hq:/app/projects/hq
+      - ./features:/app/features
+      - ./config:/app/config
+      - ./public:/app/public
+      - ./routes:/app/routes
+      - ./database:/app/database
+      - ./composer_lite.json:/app/composer.json
+      - wellmed_hq_storage:/app/storage
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:9001 || exit 1"]
+    networks:
+      - caddy-projects
+    entrypoint: ["/usr/local/bin/entrypoint.hq.sh"]
+    env_file:
+      - .env.hq
+    environment:
+        PHP_INI_SCAN_DIR: /usr/local/etc/php/conf.d
+        PHP_UPLOAD_MAX_FILESIZE: 10M
+        PHP_POST_MAX_SIZE: 10M
+
+networks:
+  caddy-projects:
+    external: true
+
+volumes:  
+  wellmed_hq_storage:

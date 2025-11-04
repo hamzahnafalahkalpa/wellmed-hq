@@ -1,0 +1,78 @@
+[submodule "repositories/laravel-support"]
+	path = repositories/laravel-support
+	url = https://github.com/hamzahnafalahkalpa/laravel-support.git
+[submodule "repositories/microtenant"]
+	path = repositories/microtenant
+	url = https://github.com/hamzahnafalahkalpa/microtenant.git
+[submodule "repositories/laravel-permission"]
+	path = repositories/laravel-permission
+	url = https://github.com/hamzahnafalahkalpa/laravel-permission.git
+[submodule "repositories/laravel-package-generator"]
+	path = repositories/laravel-package-generator
+	url = https://github.com/hamzahnafalahkalpa/laravel-package-generator.git
+[submodule "repositories/laravel-feature"]
+	path = repositories/laravel-feature
+	url = https://github.com/hamzahnafalahkalpa/laravel-feature.git
+[submodule "repositories/laravel-stub"]
+	path = repositories/laravel-stub
+	url = https://github.com/hamzahnafalahkalpa/laravel-stub.git
+[submodule "repositories/laravel-has-props"]
+	path = repositories/laravel-has-props
+	url = https://github.com/hamzahnafalahkalpa/laravel-has-props.git
+[submodule "repositories/module-workspace"]
+	path = repositories/module-workspace
+	url = https://github.com/hamzahnafalahkalpa/module-workspace.git
+[submodule "repositories/module-regional"]
+	path = repositories/module-regional
+	url = https://github.com/hamzahnafalahkalpa/module-regional.git
+[submodule "repositories/module-user"]
+	path = repositories/module-user
+	url = https://github.com/hamzahnafalahkalpa/module-user.git
+[submodule "repositories/module-encoding"]
+	path = repositories/module-encoding
+	url = https://github.com/hamzahnafalahkalpa/module-encoding.git
+[submodule "repositories/module-employee"]
+	path = repositories/module-employee
+	url = https://github.com/hamzahnafalahkalpa/module-employee.git
+[submodule "repositories/module-medic-service"]
+	path = repositories/module-medic-service
+	url = https://github.com/hamzahnafalahkalpa/module-medic-service.git
+[submodule "repositories/module-organization"]
+	path = repositories/module-organization
+	url = https://github.com/hamzahnafalahkalpa/module-organization.git
+[submodule "repositories/module-payer"]
+	path = repositories/module-payer
+	url = https://github.com/hamzahnafalahkalpa/module-payer.git
+[submodule "repositories/module-people"]
+	path = repositories/module-people
+	url = https://github.com/hamzahnafalahkalpa/module-people.git
+[submodule "repositories/module-profession"]
+	path = repositories/module-profession
+	url = https://github.com/hamzahnafalahkalpa/module-profession.git
+[submodule "repositories/module-service"]
+	path = repositories/module-service
+	url = https://github.com/hamzahnafalahkalpa/module-service.git
+[submodule "repositories/module-transaction"]
+	path = repositories/module-transaction
+	url = https://github.com/hamzahnafalahkalpa/module-transaction.git
+[submodule "repositories/module-tax"]
+	path = repositories/module-tax
+	url = https://github.com/hamzahnafalahkalpa/module-tax.git
+[submodule "repositories/module-support"]
+	path = repositories/module-support
+	url = https://github.com/hamzahnafalahkalpa/module-support.git
+[submodule "repositories/module-payment"]
+	path = repositories/module-payment
+	url = https://github.com/hamzahnafalahkalpa/module-payment.git
+[submodule "repositories/api-helper"]
+	path = repositories/api-helper
+	url = https://github.com/hamzahnafalahkalpa/api-helper.git
+[submodule "projects/hq"]
+	path = projects/hq
+	url = https://github.com/hamzahnafalahkalpa/hq.git
+[submodule "repositories/wellmed-feature"]
+	path = repositories/wellmed-feature
+	url = https://github.com/hamzahnafalahkalpa/wellmed-feature.git
+[submodule "repositories/laravel-xendit"]
+	path = repositories/laravel-xendit
+	url = https://github.com/hamzahnafalahkalpa/laravel-xendit.git
