@@ -27,7 +27,7 @@ services:
       - wellmed-core
     entrypoint: ["/usr/local/bin/entrypoint.hq.sh"]
     env_file:
-      - .env.lite
+      - .env.hq
     environment:
         PHP_INI_SCAN_DIR: /usr/local/etc/php/conf.d
         PHP_UPLOAD_MAX_FILESIZE: 10M
