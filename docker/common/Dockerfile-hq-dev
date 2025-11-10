@@ -56,7 +56,7 @@ WORKDIR /app
 USER www-data
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.hq.sh"]
-EXPOSE 8007
+EXPOSE 9001
 # CMD dihapus, nanti diatur di docker-compose
 
 # # -------------------------
@@ -71,5 +71,5 @@ COPY ./docker/development/entrypoint.hq.sh /usr/local/bin/entrypoint.hq.sh
 RUN chmod +x /usr/local/bin/entrypoint.hq.sh
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.hq.sh"]
-EXPOSE 8007
+EXPOSE 9001
 # CMD dihapus, nanti diatur di docker-compose

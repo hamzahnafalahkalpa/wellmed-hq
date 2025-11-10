@@ -104,6 +104,27 @@
                 "symlink": true
             }
         },
+        "hanafalah/module-profession": {
+            "type": "path",
+            "url": "repositories/module-profession",
+            "options": {
+                "symlink": true
+            }
+        },
+        "hanafalah/module-card-identity": {
+            "type": "path",
+            "url": "repositories/module-card-identity",
+            "options": {
+                "symlink": true
+            }
+        },
+        "hanafalah/laravel-stub": {
+            "type": "path",
+            "url": "repositories/laravel-stub",
+            "options": {
+                "symlink": true
+            }
+        },
         "hanafalah/wellmed-feature": {
             "type": "path",
             "url": "repositories/wellmed-feature",

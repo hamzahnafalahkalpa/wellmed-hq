@@ -50,7 +50,7 @@ return [
     ],
     'service_cache'  => \Hanafalah\MicroTenant\Supports\ServiceCache::class,
     'cache' => [
-        'enabled' => env('USING_CACHE', false)
+        'enabled' => false
     ],
     'app' => [
         'contracts'     => [

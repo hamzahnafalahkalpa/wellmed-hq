@@ -76,3 +76,6 @@
 [submodule "repositories/laravel-xendit"]
 	path = repositories/laravel-xendit
 	url = https://github.com/hamzahnafalahkalpa/laravel-xendit.git
+[submodule "repositories/module-card-identity"]
+	path = repositories/module-card-identity
+	url = https://github.com/hamzahnafalahkalpa/module-card-identity.git
