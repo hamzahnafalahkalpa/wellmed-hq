@@ -37,98 +37,98 @@
     "repositories": {
         "hanafalah/laravel-feature": {
             "type": "path",
-            "url": "../../repositories/laravel-feature",
+            "url": "repositories/laravel-feature",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/wellmed-feature": {
             "type": "path",
-            "url": "../../repositories/wellmed-feature",
+            "url": "repositories/wellmed-feature",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/laravel-xendit": {
             "type": "path",
-            "url": "../../repositories/laravel-xendit",
+            "url": "repositories/laravel-xendit",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/module-support": {
             "type": "path",
-            "url": "../../repositories/module-support",
+            "url": "repositories/module-support",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/module-employee": {
             "type": "path",
-            "url": "../../repositories/module-employee",
+            "url": "repositories/module-employee",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/module-service": {
             "type": "path",
-            "url": "../../repositories/module-service",
+            "url": "repositories/module-service",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/module-regional": {
             "type": "path",
-            "url": "../../repositories/module-regional",
+            "url": "repositories/module-regional",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/laravel-has-props": {
             "type": "path",
-            "url": "../../repositories/laravel-has-props",
+            "url": "repositories/laravel-has-props",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/laravel-package-generator": {
             "type": "path",
-            "url": "../../repositories/laravel-package-generator",
+            "url": "repositories/laravel-package-generator",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/laravel-permission": {
             "type": "path",
-            "url": "../../repositories/laravel-permission",
+            "url": "repositories/laravel-permission",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/laravel-stub": {
             "type": "path",
-            "url": "../../repositories/laravel-stub",
+            "url": "repositories/laravel-stub",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/laravel-support": {
             "type": "path",
-            "url": "../../repositories/laravel-support",
+            "url": "repositories/laravel-support",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/microtenant": {
             "type": "path",
-            "url": "../../repositories/microtenant",
+            "url": "repositories/microtenant",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/module-encoding": {
             "type": "path",
-            "url": "../../repositories/module-encoding",
+            "url": "repositories/module-encoding",
             "options": {
                 "symlink": true
             }
@@ -149,35 +149,35 @@
         },
         "hanafalah/module-people": {
             "type": "path",
-            "url": "../../repositories/module-encoding",
+            "url": "repositories/module-encoding",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/module-payment": {
             "type": "path",
-            "url": "../../repositories/module-payment",
+            "url": "repositories/module-payment",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/module-payer": {
             "type": "path",
-            "url": "../../repositories/module-payer",
+            "url": "repositories/module-payer",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/module-organization": {
             "type": "path",
-            "url": "../../repositories/module-organization",
+            "url": "repositories/module-organization",
             "options": {
                 "symlink": true
             }
         },
         "hanafalah/module-tax": {
             "type": "path",
-            "url": "../../repositories/module-tax",
+            "url": "repositories/module-tax",
             "options": {
                 "symlink": true
             }
