@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "==> Entrypoint Lite running..."
+echo "==> Entrypoint Hq running..."
 
 # -------------------------
 # Opcache setup (CLI untuk Octane)
